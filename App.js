@@ -1,32 +1,30 @@
-
-{/* <div id="parent">
-    <div id="child1">
-        <h1 id="heading1">heading1</h1>
-        <h1 id="heading1">heading2</h1>
-    </div>
-</div> */}
-
+import React from "react";
+import ReactDOM from 'react-dom/client';
 
 const heading = React.createElement(
-    'Sand',
+    'div',
     {id : 'heading', 
-        abc: 'highlight'  // this object is part of props
+        key: '12',
+        abc: 'highlight1'  // this object is part of props
     }, 
     React.createElement(
         'div',
         {id : 'child1', 
-            abc: 'highlight'  // this object is part of props
+            key: '13',
+            abc: 'highlight2'  // this object is part of props
         }, 
         [React.createElement(
             'h1',
             {id : 'heading1', 
-                abc: 'highlight'  // this object is part of props
+                key: '14',
+                abc: 'highlight3'  // this object is part of props
             }, 
             'heading1'),
         React.createElement(
                 'h1',
                 {id : 'heading2', 
-                    abc: 'highlight'  // this object is part of props
+                    key: '15',
+                    abc: 'highlight4'  // this object is part of props
                 }, 
                 'heading2')
         ]
