@@ -8,7 +8,7 @@
 
 
 const heading = React.createElement(
-    'div',
+    'Sand',
     {id : 'heading', 
         abc: 'highlight'  // this object is part of props
     }, 
