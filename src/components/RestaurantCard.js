@@ -9,7 +9,7 @@ const styleName = {
 }
 
 const RestaurantCard = (props) => {
-    console.log(props)
+    // console.log(props)
     const info = props?.resData?.info;
     const {name,cuisines,avgRating,sla,cloudinaryImageId} = info;
     // console.log(props);

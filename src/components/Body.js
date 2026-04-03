@@ -1,10 +1,16 @@
 import RestaurantCard from "./RestaurantCard";
 import restaurantData from "../utils/mockData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const Body = () => {
     const [listOfRestaurants, setlistOfRestaurants] = useState(restaurantData); // Hooks should be called inside the component function
+
+    useEffect(() => {
+        console.log('effect called after rendering');
+    },[]);
+
+    console.log('body jsx renders');
     return (
         <div className="body">
             {/* <div className="search">Search</div> */}
