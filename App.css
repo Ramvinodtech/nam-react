@@ -44,3 +44,18 @@
 .res-btn {
     margin: 10px;
 }
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}   
+
+.btn-login-logout {
+    padding: 5px 15px;
+}
