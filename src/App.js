@@ -9,6 +9,8 @@ import Contact from './components/Contact';
 import Error from "./components/Error";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router";
 import RestaurantMenu from "./components/RestaurantMenu";
+// import { createBrowserRouter, Outlet } from "react-router-dom";
+// import { RouterProvider } from "react-router/dom";
 
 
 const AppLayout = () => {

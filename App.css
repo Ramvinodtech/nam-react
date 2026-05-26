@@ -59,3 +59,9 @@
 .btn-login-logout {
     padding: 5px 15px;
 }
+
+.user-card {
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
