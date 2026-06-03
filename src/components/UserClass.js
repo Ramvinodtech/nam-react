@@ -13,6 +13,10 @@ class UserClass extends React.Component {
     componentDidMount() {
         console.log('First Child Mounted')
     }
+
+    componentDidUpdate() {
+        console.log('First Child Updated');
+    }
     
     render() {
         console.log('First Child Render');
